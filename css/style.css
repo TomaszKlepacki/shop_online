@@ -1,0 +1,1457 @@
+<<<<<<< HEAD
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500;600;700;800&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'PT Serif', serif;  
+}
+
+a{
+    font-size: 18px;
+}
+
+.navbar-fixed{
+    box-shadow: none;
+    padding-top: 36px ;
+    position: fixed;
+    background-color: transparent;
+}
+
+.underline {
+    position: relative;
+    top: 76px;
+border-bottom: 1px solid white;
+
+}
+.logo{
+    background-image: url('/image/logo/drawable-hdpi/LOGO\ PRENACAPS.png');
+   width: 400px;
+   height: 60px;
+    background-repeat: no-repeat;
+    display: none;
+margin: 0;
+
+}
+
+
+
+.container-web{
+    top: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.list{
+    margin-right: 80px;
+    transition: ease-out 0.3s;
+}
+
+.list:hover{
+    color: #FB577A;
+    background-color: transparent;
+}
+
+.change{
+    color: white;
+    transition: ease-out 0.3s;
+}
+
+.change:hover{
+    color: #FB577A;
+    background-color: transparent;
+}
+
+
+.text-shopping{
+    display: flex;
+    color: white;
+}
+
+.text-shopping:hover{
+    color:#FB577A ;
+    background-color: transparent;
+    transition: ease-out 0.3s;;
+}
+
+.text-shopping i{
+    margin-right: 10px;
+}
+
+.dropdown-trigger:hover{
+    text-decoration: none;
+}
+
+ul#dropdown1.dropdown-content li{
+    width: 408px;
+}
+
+.dropdown-content li:hover, .dropdown-content li.active {
+width: 400px;
+}
+
+.dropdown-content{
+    width: 200px;
+}
+
+
+#nav-mobile{
+    
+    margin-left: 35vw;
+    margin-right: auto;
+}
+
+img.shopping{
+ position: relative;
+ top: 5px;
+ margin-right: 10px;
+}
+
+#banner{
+    top: 0;
+    background-image: url('/image/header/Placement\ Area.png');
+    max-width: auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+
+
+.main-text{
+    position: absolute;
+    top: 290px;
+    color: white;
+    width: 557px;
+    height: 209px;
+    line-height: 54px;
+    letter-spacing: 0;
+    text-align: left;
+    font-size: 36px;
+}
+
+.container-main{
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+
+.btn{
+position: relative;
+top: 10px;
+width: 290px;
+height: 50px;
+margin-top: 41px;
+font-family: 'Noto Sans', sans-serif;
+font-weight: 400;
+background-color: #FB577A;
+color: white;
+border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #FB577A;
+    transition:  ease-out 0.3s;
+}
+
+.btn p {
+    display: flex;
+position: absolute;
+font-size: 14px;
+letter-spacing: 0px;
+    line-height: 50px;
+}
+
+.btn p i {
+   margin-left: 46px;
+    
+}
+
+.btn p i:hover{
+    color: #FB577A;
+  
+}
+
+
+/* Nav mobile */
+
+
+.main-mobile{
+    background-color: #fadee4;
+    display: block;
+    display: flex;
+    bottom: 0;
+    font-family: "PT Serif",serif;
+    padding: 10px 20px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+}
+
+.main-mobile p {
+    font-size: 10px;
+    font-weight: 300;
+}
+
+
+
+.first{
+    position: relative;
+    width: 67px;
+    height: 40px;
+    text-align: center;
+     margin: auto;
+     bottom: -6px;
+     
+     
+}
+
+
+/* section bestsellery */
+
+#bestsellery{
+    margin-top: -30px;
+    background-color:#FAF8F4 ;
+    height: 140vh;
+    overflow-x: hidden;
+}
+
+.container-bestsellery{
+margin-top: 0px;
+margin-left: 200px;
+top: 100px;
+}
+
+.mark-bestsellery{
+    position: relative;
+    top: 100px;
+}
+
+.best{
+    font-size: 34px;
+    color: #474761;
+}
+
+.name{
+    font-size: 28px;
+    color: #FB577A;
+    width: 322px;
+}
+
+.all-container{
+    display: flex;
+    position: relative;
+    top: -13px;
+    width: auto;
+}
+
+.container-line{
+    
+    border: 1px solid #474761;
+    margin-left: 355px;
+    width: 60vw;
+  height: 1px;
+    
+}
+
+.splide__arrow svg{
+    fill: #000000;
+    color: #000000;
+}
+
+.arrow{
+    width: 80px;
+    position: relative;
+    bottom: 12px;
+    left: 62vw;
+    
+}
+
+
+.left{
+    margin-right: 4px;
+}
+
+.right{
+    margin-left: 4px;
+}
+
+.container-products{
+    height: 100vh;
+}
+  
+
+
+
+
+/* .carousel{
+    display: block;
+    height: 1110px;
+} */
+
+.carousel-item{
+    width: 420px;
+    height: 1020px;
+    margin-right: 20px;
+    
+}
+
+.splide__list{
+    display: flex;
+    
+}
+
+
+  .image{
+    position: relative;
+    text-align: center;
+    top: 206px;
+    width: 420px;
+    height: 620px;
+    border: 1px solid #474761;
+    border-radius: 5px;
+  }
+
+  #splide01-slide01{
+    width: calc(440px);
+}
+
+
+  .image img {
+
+position: relative;    
+top: 100px;
+  }
+
+  .text-products{
+    position: relative;
+    top: 110px;
+    color: #474761;
+    font-family:'Barlow';
+    font-weight:500;
+    font-size: 24px;
+  }
+
+  .name-products{
+    position: relative;
+    margin-left: 40px;
+    margin-right: 40px;
+    top: 80px;
+    font-family: 'PT Serif';
+    color: #FB577A;
+    width: 342px;
+    height: 37px;
+    font-size: 28px;
+  }
+
+  .describe-products{
+    position: relative;
+    margin-left: 34px;
+    margin-right: 33px;
+    top: 53px;
+    width: 353px;
+    height: 40px;
+  }
+
+  .btn-products{
+    cursor: pointer;
+    position: relative;
+    top: 40px;
+    width: 240px;
+    height: 50px;
+    margin-left: 80px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+    margin-top: 41px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    background-color: #FB577A;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .btn-products:hover{
+    background-color: white;
+    color: #FB577A;
+    transition:  ease-out 0.3s;
+  }
+
+.btn-products p{
+    margin-left: 23px;
+    line-height: 50px;
+    width: 148px;
+    font-size: 14px;
+    font-weight:600 ;
+}
+
+  .arrow-products{
+    line-height: 50px;
+    position: absolute; 
+    margin-left: 26px;              
+   top: 50%;                         
+   transform: translate(0, -50%) 
+  }
+
+.splide__pagination li{
+    display: none;
+}  
+
+.all{
+    position: relative;
+    bottom: 31px;
+}
+
+ .splide__slide{
+    padding-left: 30px;
+  }
+
+.splide__slide {
+padding: 0;
+}
+
+/* media queries*/
+
+@media(min-width:2000px){
+    #banner{
+        
+        background-image: url('/image/header/Placement\ Area.png');
+        height: 100vh;
+        width: auto;
+        background-size: cover;      
+        
+    }
+    .main-mobile{
+        display: none;
+    }
+}
+
+@media(min-width: 1900px){
+   #banner{
+    background-image: url('/image/header/Placement\ Area.png');
+    height: auto;
+    width: 100vw;
+    background-size: cover;   
+   }
+
+   .main-mobile{
+    visibility: hidden;
+}
+}
+
+
+@media(min-width: 1800px){
+    #banner{
+     background-image: url('/image/header/Placement\ Area.png');
+     height: 100vh;
+     width: auto;
+     background-size: cover;   
+    }
+
+    .main-mobile{
+        visibility: hidden;
+    }
+
+    
+    
+ }
+
+ @media(max-width:1800px){
+    .main-mobile{
+        visibility: hidden;
+    }
+
+    .container-line{
+        width: 55vw;
+    }
+
+    .arrow{
+        left: 57vw;
+    }
+ }
+
+ @media(max-width:1700px){
+    .main-mobile{
+        visibility: hidden;
+    }
+ }
+
+ 
+
+@media(max-width: 1600px){
+
+    #banner{        
+        background-image: url('/image/header/Placement\ Area.png');
+        height: 100vh;
+        width: auto;
+        background-size: cover;  
+                
+        
+    }
+    .main-mobile{
+        visibility: hidden;
+    }
+
+    #nav-mobile{
+        margin-left: 30vw;
+    }
+
+    .list{
+        margin-right: 40px;
+    }
+
+    .container-line{
+        width: 50vw;
+    }
+
+    .arrow{
+        left: 54vw;
+    }
+}
+
+
+@media(max-width:1400px){
+    .container-line{
+        width: 40vw;
+    }
+
+    .arrow{
+        left: 44vw;
+    }
+}
+
+@media(max-width: 1200px){
+    #nav-mobile{
+        margin-left: 27vw;
+    }
+
+    .main-mobile{
+        visibility: hidden;
+    }
+
+    .list{
+        margin-right: 5px;
+    }
+
+    .text-shopping{
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    .container-line{
+        width: 28vw;
+    }
+
+    .arrow{
+        left: 32vw;
+    }
+}
+
+@media(max-width:990px){
+
+    .main-mobile{
+        visibility: visible;
+    }
+    #banner{
+        background-image: url('/image/header-mobile/drawable-xxxhdpi/Placement\ Area.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .container-main{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .main-text{
+        margin-left: 100px;
+        margin-right: 400px;
+        width: 320px;
+        height: 251px;
+        line-height: 42px;
+
+    }
+
+    .container-bestsellery{
+        margin-left: 70px;
+    }
+
+    .container-line{
+        width: 2vw;
+        border: 1px solid #FAF8F4;
+    }
+
+    .arrow{
+        display: block;
+        top: -60px;
+        left: 8vw;
+    }
+   
+}
+
+@media(max-width:800px){
+    #banner{
+        background-image: url('/image/header-mobile/drawable-xxhdpi/Placement\ Area.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: auto;
+        height: 100vh;
+    }
+    .container-bestsellery{
+        margin-left: 20px;
+    }
+
+    .container-web{
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+    
+
+    .underline{
+        top: 20px;
+    }
+    
+
+    .main-text{
+        top: 260px;
+        margin-left: 160px;
+    }
+
+    .btn{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+.brand-logo img{
+    display: none;
+}
+
+    .logo{
+        position: relative;
+display: block;
+background-image: url('/image/logo/drawable-mdpi/LOGO\ PRENACAPS.png');
+width: 200px;
+left: 40px;
+top: -20px;
+
+    }
+}
+
+@media(max-width:600px){
+    .arrow{
+        display: block;
+        top: -65px;
+        left: -2vw;
+    }
+}
+
+@media(max-width:500px){
+    .main-text{
+        top: 240px;
+        margin-left: 40px;
+        font-size: 26px;
+    }
+
+    .name{
+        font-size: 20px;
+    }
+
+    .btn{
+        top: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .arrow{
+        display: block;
+        top: -65px;
+        left: -20vw;
+    }
+}
+
+@media(max-width:400px){
+    .main-text{
+        font-size: 26px;
+        top: 240px;
+        margin-left: 25px;
+    }
+
+    .btn{
+        top: 30px;
+        margin-left: 5px;
+        margin-right: 15px;
+    }
+
+    .name{
+        font-size: 20px;
+    }
+
+    .arrow{
+        display: block;
+        top: -50px;
+        left: -30vw;
+    }
+}
+
+
+@media(max-width:300px){
+
+.main-text{
+    font-size: 16px;
+}
+
+    .btn{
+        width: 230px;
+    }
+
+    .btn p {
+        font-size: 12px;
+    }
+
+    .btn p i {
+        margin-left: 10px;
+    }
+}
+
+=======
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500;600;700;800&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'PT Serif', serif;  
+}
+
+a{
+    font-size: 18px;
+}
+
+.navbar-fixed{
+    box-shadow: none;
+    padding-top: 36px ;
+    position: fixed;
+    background-color: transparent;
+}
+
+.underline {
+    position: relative;
+    top: 76px;
+border-bottom: 1px solid white;
+
+}
+.logo{
+    background-image: url('/image/logo/drawable-hdpi/LOGO\ PRENACAPS.png');
+   width: 400px;
+   height: 60px;
+    background-repeat: no-repeat;
+    display: none;
+margin: 0;
+
+}
+
+
+
+.container-web{
+    top: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.list{
+    margin-right: 80px;
+    transition: ease-out 0.3s;
+}
+
+.list:hover{
+    color: #FB577A;
+    background-color: transparent;
+}
+
+.change{
+    color: white;
+    transition: ease-out 0.3s;
+}
+
+.change:hover{
+    color: #FB577A;
+    background-color: transparent;
+}
+
+
+.text-shopping{
+    display: flex;
+    color: white;
+}
+
+.text-shopping:hover{
+    color:#FB577A ;
+    background-color: transparent;
+    transition: ease-out 0.3s;;
+}
+
+.text-shopping i{
+    margin-right: 10px;
+}
+
+.dropdown-trigger:hover{
+    text-decoration: none;
+}
+
+ul#dropdown1.dropdown-content li{
+    width: 408px;
+}
+
+.dropdown-content li:hover, .dropdown-content li.active {
+width: 400px;
+}
+
+.dropdown-content{
+    width: 200px;
+}
+
+
+#nav-mobile{
+    
+    margin-left: 35vw;
+    margin-right: auto;
+}
+
+img.shopping{
+ position: relative;
+ top: 5px;
+ margin-right: 10px;
+}
+
+#banner{
+    top: 0;
+    background-image: url('/image/header/Placement\ Area.png');
+    max-width: auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+
+
+.main-text{
+    position: absolute;
+    top: 290px;
+    color: white;
+    width: 557px;
+    height: 209px;
+    line-height: 54px;
+    letter-spacing: 0;
+    text-align: left;
+    font-size: 36px;
+}
+
+.container-main{
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+
+.btn{
+position: relative;
+top: 10px;
+width: 290px;
+height: 50px;
+margin-top: 41px;
+font-family: 'Noto Sans', sans-serif;
+font-weight: 400;
+background-color: #FB577A;
+color: white;
+border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #FB577A;
+    transition:  ease-out 0.3s;
+}
+
+.btn p {
+    display: flex;
+position: absolute;
+font-size: 14px;
+letter-spacing: 0px;
+    line-height: 50px;
+}
+
+.btn p i {
+   margin-left: 46px;
+    
+}
+
+.btn p i:hover{
+    color: #FB577A;
+  
+}
+
+
+/* Nav mobile */
+
+
+.main-mobile{
+    background-color: #fadee4;
+    display: block;
+    display: flex;
+    bottom: 0;
+    font-family: "PT Serif",serif;
+    padding: 10px 20px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+}
+
+.main-mobile p {
+    font-size: 10px;
+    font-weight: 300;
+}
+
+
+
+.first{
+    position: relative;
+    width: 67px;
+    height: 40px;
+    text-align: center;
+     margin: auto;
+     bottom: -6px;
+     
+     
+}
+
+
+/* section bestsellery */
+
+#bestsellery{
+    margin-top: -30px;
+    background-color:#FAF8F4 ;
+    height: 140vh;
+    overflow-x: hidden;
+}
+
+.container-bestsellery{
+margin-top: 0px;
+margin-left: 200px;
+top: 100px;
+}
+
+.mark-bestsellery{
+    position: relative;
+    top: 100px;
+}
+
+.best{
+    font-size: 34px;
+    color: #474761;
+}
+
+.name{
+    font-size: 28px;
+    color: #FB577A;
+    width: 322px;
+}
+
+.all-container{
+    display: flex;
+    position: relative;
+    top: -13px;
+    width: auto;
+}
+
+.container-line{
+    
+    border: 1px solid #474761;
+    margin-left: 355px;
+    width: 60vw;
+  height: 1px;
+    
+}
+
+.splide__arrow svg{
+    fill: #000000;
+    color: #000000;
+}
+
+.arrow{
+    width: 80px;
+    position: relative;
+    bottom: 12px;
+    left: 62vw;
+    
+}
+
+
+.left{
+    margin-right: 4px;
+}
+
+.right{
+    margin-left: 4px;
+}
+
+.container-products{
+    height: 100vh;
+}
+  
+
+
+
+
+/* .carousel{
+    display: block;
+    height: 1110px;
+} */
+
+.carousel-item{
+    width: 420px;
+    height: 1020px;
+    margin-right: 20px;
+    
+}
+
+.splide__list{
+    display: flex;
+    
+}
+
+
+  .image{
+    position: relative;
+    text-align: center;
+    top: 206px;
+    width: 420px;
+    height: 620px;
+    border: 1px solid #474761;
+    border-radius: 5px;
+  }
+
+  #splide01-slide01{
+    width: calc(440px);
+}
+
+
+  .image img {
+
+position: relative;    
+top: 100px;
+  }
+
+  .text-products{
+    position: relative;
+    top: 110px;
+    color: #474761;
+    font-family:'Barlow';
+    font-weight:500;
+    font-size: 24px;
+  }
+
+  .name-products{
+    position: relative;
+    margin-left: 40px;
+    margin-right: 40px;
+    top: 80px;
+    font-family: 'PT Serif';
+    color: #FB577A;
+    width: 342px;
+    height: 37px;
+    font-size: 28px;
+  }
+
+  .describe-products{
+    position: relative;
+    margin-left: 34px;
+    margin-right: 33px;
+    top: 53px;
+    width: 353px;
+    height: 40px;
+  }
+
+  .btn-products{
+    cursor: pointer;
+    position: relative;
+    top: 40px;
+    width: 240px;
+    height: 50px;
+    margin-left: 80px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+    margin-top: 41px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    background-color: #FB577A;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .btn-products:hover{
+    background-color: white;
+    color: #FB577A;
+    transition:  ease-out 0.3s;
+  }
+
+.btn-products p{
+    margin-left: 23px;
+    line-height: 50px;
+    width: 148px;
+    font-size: 14px;
+    font-weight:600 ;
+}
+
+  .arrow-products{
+    line-height: 50px;
+    position: absolute; 
+    margin-left: 26px;              
+   top: 50%;                         
+   transform: translate(0, -50%) 
+  }
+
+.splide__pagination li{
+    display: none;
+}  
+
+.all{
+    position: relative;
+    bottom: 31px;
+}
+
+ .splide__slide{
+    padding-left: 30px;
+  }
+
+.splide__slide {
+padding: 0;
+}
+
+/* media queries*/
+
+@media(min-width:2000px){
+    #banner{
+        
+        background-image: url('/image/header/Placement\ Area.png');
+        height: 100vh;
+        width: auto;
+        background-size: cover;      
+        
+    }
+    .main-mobile{
+        display: none;
+    }
+}
+
+@media(min-width: 1900px){
+   #banner{
+    background-image: url('/image/header/Placement\ Area.png');
+    height: auto;
+    width: 100vw;
+    background-size: cover;   
+   }
+
+   .main-mobile{
+    visibility: hidden;
+}
+}
+
+
+@media(min-width: 1800px){
+    #banner{
+     background-image: url('/image/header/Placement\ Area.png');
+     height: 100vh;
+     width: auto;
+     background-size: cover;   
+    }
+
+    .main-mobile{
+        visibility: hidden;
+    }
+
+    
+    
+ }
+
+ @media(max-width:1800px){
+    .main-mobile{
+        visibility: hidden;
+    }
+
+    .container-line{
+        width: 55vw;
+    }
+
+    .arrow{
+        left: 57vw;
+    }
+ }
+
+ @media(max-width:1700px){
+    .main-mobile{
+        visibility: hidden;
+    }
+ }
+
+ 
+
+@media(max-width: 1600px){
+
+    #banner{        
+        background-image: url('/image/header/Placement\ Area.png');
+        height: 100vh;
+        width: auto;
+        background-size: cover;  
+                
+        
+    }
+    .main-mobile{
+        visibility: hidden;
+    }
+
+    #nav-mobile{
+        margin-left: 30vw;
+    }
+
+    .list{
+        margin-right: 40px;
+    }
+
+    .container-line{
+        width: 50vw;
+    }
+
+    .arrow{
+        left: 54vw;
+    }
+}
+
+
+@media(max-width:1400px){
+    .container-line{
+        width: 40vw;
+    }
+
+    .arrow{
+        left: 44vw;
+    }
+}
+
+@media(max-width: 1200px){
+    #nav-mobile{
+        margin-left: 27vw;
+    }
+
+    .main-mobile{
+        visibility: hidden;
+    }
+
+    .list{
+        margin-right: 5px;
+    }
+
+    .text-shopping{
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    .container-line{
+        width: 28vw;
+    }
+
+    .arrow{
+        left: 32vw;
+    }
+}
+
+@media(max-width:990px){
+
+    .main-mobile{
+        visibility: visible;
+    }
+    #banner{
+        background-image: url('/image/header-mobile/drawable-xxxhdpi/Placement\ Area.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .container-main{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .main-text{
+        margin-left: 100px;
+        margin-right: 400px;
+        width: 320px;
+        height: 251px;
+        line-height: 42px;
+
+    }
+
+    .container-bestsellery{
+        margin-left: 70px;
+    }
+
+    .container-line{
+        width: 2vw;
+        border: 1px solid #FAF8F4;
+    }
+
+    .arrow{
+        display: block;
+        top: -60px;
+        left: 8vw;
+    }
+   
+}
+
+@media(max-width:800px){
+    #banner{
+        background-image: url('/image/header-mobile/drawable-xxhdpi/Placement\ Area.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: auto;
+        height: 100vh;
+    }
+    .container-bestsellery{
+        margin-left: 20px;
+    }
+
+    .container-web{
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+    
+
+    .underline{
+        top: 20px;
+    }
+    
+
+    .main-text{
+        top: 260px;
+        margin-left: 160px;
+    }
+
+    .btn{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+.brand-logo img{
+    display: none;
+}
+
+    .logo{
+        position: relative;
+display: block;
+background-image: url('/image/logo/drawable-mdpi/LOGO\ PRENACAPS.png');
+width: 200px;
+left: 40px;
+top: -20px;
+
+    }
+}
+
+@media(max-width:600px){
+    .arrow{
+        display: block;
+        top: -65px;
+        left: -2vw;
+    }
+}
+
+@media(max-width:500px){
+    .main-text{
+        top: 240px;
+        margin-left: 40px;
+        font-size: 26px;
+    }
+
+    .name{
+        font-size: 20px;
+    }
+
+    .btn{
+        top: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .arrow{
+        display: block;
+        top: -65px;
+        left: -20vw;
+    }
+}
+
+@media(max-width:400px){
+    .main-text{
+        font-size: 26px;
+        top: 240px;
+        margin-left: 25px;
+    }
+
+    .btn{
+        top: 30px;
+        margin-left: 5px;
+        margin-right: 15px;
+    }
+
+    .name{
+        font-size: 20px;
+    }
+
+    .arrow{
+        display: block;
+        top: -50px;
+        left: -30vw;
+    }
+}
+
+
+@media(max-width:300px){
+
+.main-text{
+    font-size: 16px;
+}
+
+    .btn{
+        width: 230px;
+    }
+
+    .btn p {
+        font-size: 12px;
+    }
+
+    .btn p i {
+        margin-left: 10px;
+    }
+}
+
+>>>>>>> 35ed9957fdd847ce0e70605a5a2c434b3453f645
