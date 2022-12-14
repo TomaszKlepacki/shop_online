@@ -120,7 +120,7 @@ img.shopping{
 
 #banner{
     top: 0;
-    background-image: url('/image/header/Placement Area.png');
+    background-image: url("/image/header/Placement\ Area.png");
     max-width: auto;
     height: 100vh;
     background-repeat: no-repeat;
