@@ -1,9 +1,4 @@
 
- * Materialize v1.0.0 (http://materializecss.com)
- * Copyright 2014-2017 Materialize
- * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
- */
-
 /*!
  * Materialize v1.0.0 (http://materializecss.com)
  * Copyright 2014-2017 Materialize
@@ -4777,7 +4772,7 @@ $jscomp.polyfill = function (e, r, p, m) {
     M.initializeJqueryWrapper(Tooltip, 'tooltip', 'M_Tooltip');
   }
 })(cash, M.anime);
-<<<<<<< HEAD
+
 ; /*!
   * Waves v0.6.4
   * http://fian.my.id/Waves
@@ -5003,7 +4998,7 @@ $jscomp.polyfill = function (e, r, p, m) {
     }
   };
 
-<<<<<<< HEAD
+
   /**
    * Disable mousedown event for 500ms during and after touch
    */
@@ -5042,9 +5037,9 @@ $jscomp.polyfill = function (e, r, p, m) {
     touchup: function (e) {
       TouchHandler.allowEvent(e);
     }
-  };
+  },
 
-<<<<<<< HEAD
+
   /**
    * Delegated click handler for .waves-effect element.
    * returns null when .waves-effect element not in "click tree"
@@ -5072,7 +5067,7 @@ $jscomp.polyfill = function (e, r, p, m) {
     return element;
   }
 
-<<<<<<< HEAD
+
   /**
    * Bubble the click and show effect if .waves-effect elem was found
 =======
@@ -5080,6 +5075,7 @@ $jscomp.polyfill = function (e, r, p, m) {
    * Bubble the click and show effect if .waves-effect elem was found
 >>>>>>> 35ed9957fdd847ce0e70605a5a2c434b3453f645
    */
+
   function showEffect(e) {
     var element = getWavesEffectElement(e);
 
@@ -5114,7 +5110,7 @@ $jscomp.polyfill = function (e, r, p, m) {
     document.body.addEventListener('mousedown', showEffect, false);
   };
 
-<<<<<<< HEAD
+
   /**
    * Attach Waves to an input element (or any element which doesn't
    * bubble mouseup/mousedown events).
